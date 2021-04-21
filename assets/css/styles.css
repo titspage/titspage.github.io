@@ -43,3 +43,8 @@
     background-color: #f9bacc!important;
     background-image: none !important;
 }
+.tits-circle {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
