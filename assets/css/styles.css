@@ -68,6 +68,9 @@
 }
 .charities-row img {
     width: 100%;
-    padding: 0 20px;
     filter: brightness(0) invert(1);
+}
+.charities-row .col-3 {
+    display: flex;
+    align-items: center;
 }
