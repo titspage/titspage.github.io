@@ -29,8 +29,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;500;700;900&display=swap" rel="stylesheet">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="./assets/css/flip.css" rel="stylesheet">
+<script src="https://unpkg.com/@pqina/flip/dist/flip.min.js"></script>
+
+
 <style>
-  .text-success{color: #fff !important}body{background-color: #fff !important;background-image: none !important;}
+  .text-success{color: #fff !important}body{background-color: #fff !important;background-image: none !important;}.override-font span {font-size: 50px !important;}.override-font{margin: 0 auto;justify-content: center!important; width:100%}.center-donations {margin-bottom: 20px;width:100%;text-align: center;justify-content: center;}.particle-container{height:140px!important;overflow:visible;}.coinimage-bg{display:none!important}.stats-container{display: none!important;}.white-bg{margin-top:30px}
 </style>
 </head>
 <body>
@@ -47,22 +51,22 @@ The official home of Tits Coin
 </ul>
 </div>
 <div style="font-size:20px;line-height:45px;line-height: 43px;display: flex;align-items: center;flex-direction: row;justify-content: flex-end;" class="text-center text-lg-right w-100">
-  <a href="http://twitter.com/titsfortits2" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Twitter">
-  <i class="fab fa-twitter fa-fw"></i>
+<a href="http://twitter.com/titsfortits2" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Twitter">
+<i class="fab fa-twitter fa-fw"></i>
+</a>
+<a href="https://t.me/TitsToTheMoon" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Telegram">
+<i class="fab fa-telegram fa-fw"></i>
+</a>
+<a href="https://instagram.com/titscoin" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Instagram">
+  <i class="fab fa-instagram fa-fw"></i>
   </a>
-  <a href="https://t.me/TitsToTheMoon" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Telegram">
-  <i class="fab fa-telegram fa-fw"></i>
+  <a href="https://www.facebook.com/TitsCoin-105274645039214" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Facebook">
+    <i class="fab fa-facebook fa-fw"></i>
   </a>
-  <a href="https://instagram.com/titscoin" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Instagram">
-    <i class="fab fa-instagram fa-fw"></i>
-    </a>
-    <a href="https://www.facebook.com/TitsCoin-105274645039214" class="mx-2 text-info" target="_blank" data-toggle="tooltip" title="Facebook">
-      <i class="fab fa-facebook fa-fw"></i>
-    </a>
-    <a href="mailto:support@titscoin.io" class="mx-2 text-info"data-toggle="tooltip" title="Email" style="font-size: 12px; font-weight: 500;">
-      <span>support@titscoin.io</span>
-    </a>
-  </div>
+  <a href="mailto:support@titscoin.io" class="mx-2 text-info"data-toggle="tooltip" title="Email" style="font-size: 12px; font-weight: 500;">
+    <span>support@titscoin.io</span>
+  </a>
+</div>
 </div>
 </div>
 </div>
@@ -193,81 +197,62 @@ Buy Now
   </div>
 </div>
 </div>
-<div class="card border-0 rounded-0">
-<div class="card-body py-5">
-  <div class="container">
-    <div class="d-flex align-items-center">
-    <div class="flex-fill">
-    <h1 class="font-weight-bold text-info mb-0 text-center mb-5 text-uppercase">
-    Charities we are donating to
-    </h1>
-    <div class="row charities-row">
-    <div class="col-6 col-md-3">
-    <img src="./assets/images/bcrf.svg">
-    </div>
-    <div class="col-6 col-md-3">
-    <img src="./assets/images/komen.png">
-    </div>
-    <div class="col-6 col-md-3 mt-5 mt-md-0">
-    <img src="./assets/images/nationalbreastcancer.svg">
-    </div>
-    <div class="col-6 col-md-3 mt-5 mt-md-0">
-      <img src="./assets/images/florida.png">
-    </div>
-    </div>
-    </div>
-    
-    </div>
-    </div>
+<div class="container white-bg py-4">  
+  <div class="tick" data-value="75000" data-did-init="handleTickInit">
+
+    <h2 class="text-info center-donations">TOTAL RAISED</h2>
+    <div data-value-mapping="indexes" data-layout="horizontal fit" data-transform="arrive(.2) -> round -> split -> delay(rtl, 100, 150)" style="font-size: 50px !important;" class="override-font mb-5">
+
+        <span class="tick-text-inline">$</span>
+
+        <span data-view="flip">7</span>
+        <span data-view="flip">5</span>
+
+        <span class="tick-text-inline">,</span>
+
+        <span data-view="flip">0</span>
+        <span data-view="flip">0</span>
+        <span data-view="flip">0</span>
+
+        <span class="tick-text-inline">.00</span>
+        
+    </div>    
 </div>
-</div>
-<div class="container white-bg">
-  <div class="container spaceman spaceman-muted text-shadow py-5">
-  <div class="row">
-  <div class="col-sm-12 col-lg-12 text-white" style="min-height:600px;">
-  <h2 class="orbitron text-white" style="letter-spacing:2px">
-  How to Buy Tits Coin
-  </h2>
-  <p class="text-success font-weight-bold">PancakeSwap Instructions</p>
-  <ol>
-  <li class="mb-2">Download the app,
-  <a href="https://trustwallet.com/deeplink/" class="text-info font-weight-bold">Trust Wallet</a>
-  </li>
-  <li class="mb-2">
-  Purchase
-  <span class="badge badge-info px-2">BNB</span> or
-  <span class="badge badge-info px-2">BSC</span>
-  </li>
-  <li class="mb-2">
-  Go to the <span class="text-info">DApps</span> tab at the bottom, and find
-  <span class="text-info">PancakeSwap</span>. Iphone users may need to enable the trust browser, then
-  use the browser tab. You can also click the <span class="badge badge-info">BUY NOW</span>
-  button on our website if you're not on mobile.
-  </li>
-  <li class="mb-2">
-  Click "<span class="text-info font-weight-bold">Select a currency</span>" and enter this contract address into
-  the search field, and you should be able to find Tits Coin.
-  <span class="badge badge-info w-100" style="font-size:14px;text-transform:none;">
-  0xfe7e350009a1f3915352022b1bfc2087d7b1d1cd
-  </span>
-  </li>
-  <li class="mb-2">
-  Before swapping, click on the cog wheel <svg style="width: 12px" class="svg-inline--fa fa-cog fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cog" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M487.4 315.7l-42.6-24.6c4.3-23.2 4.3-47 0-70.2l42.6-24.6c4.9-2.8 7.1-8.6 5.5-14-11.1-35.6-30-67.8-54.7-94.6-3.8-4.1-10-5.1-14.8-2.3L380.8 110c-17.9-15.4-38.5-27.3-60.8-35.1V25.8c0-5.6-3.9-10.5-9.4-11.7-36.7-8.2-74.3-7.8-109.2 0-5.5 1.2-9.4 6.1-9.4 11.7V75c-22.2 7.9-42.8 19.8-60.8 35.1L88.7 85.5c-4.9-2.8-11-1.9-14.8 2.3-24.7 26.7-43.6 58.9-54.7 94.6-1.7 5.4.6 11.2 5.5 14L67.3 221c-4.3 23.2-4.3 47 0 70.2l-42.6 24.6c-4.9 2.8-7.1 8.6-5.5 14 11.1 35.6 30 67.8 54.7 94.6 3.8 4.1 10 5.1 14.8 2.3l42.6-24.6c17.9 15.4 38.5 27.3 60.8 35.1v49.2c0 5.6 3.9 10.5 9.4 11.7 36.7 8.2 74.3 7.8 109.2 0 5.5-1.2 9.4-6.1 9.4-11.7v-49.2c22.2-7.9 42.8-19.8 60.8-35.1l42.6 24.6c4.9 2.8 11 1.9 14.8-2.3 24.7-26.7 43.6-58.9 54.7-94.6 1.5-5.5-.7-11.3-5.6-14.1zM256 336c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z"></path></svg><!-- <i class="fas fa-cog"></i> --> and set the slippage
-  to between 11-12%
-  </li>
-  <li class="mb-2">
-  Now, set the amount you want to purchase and press the <span class="text-info font-weight-bold">swap</span> button.
-  </li>
-  <li>
-  Confirm the transaction and...
-  </li>
-  </ol>
-  <div class="text-white h1 text-center" style="font-weight:900;">Hold To End Breast Cancer</div>
-  </div>  
+
+  <h2 class="text-info">Our Purpose- For Women Everywhere</h2>
+  <p class="mb-4">
+    TITS coin is a  philanthropic cryptocurrency committed to enhancing the lives of women and families impacted by breast cancer. Our mission is to provide emotional and financial support, spread awareness, and ensure funding for critical research—all in pursuit of a cure.    
+  </p>
   </div>
-  </div>
-  </div>
-<footer class="footer py-5 mt-5">
+  <div class="card border-0 rounded-0" style="margin-bottom: 0;border-bottom: 1px solid #e74e85 !important;">
+    <div class="card-body py-5">
+      <div class="container">
+        <div class="d-flex align-items-center">
+        <div class="flex-fill">
+        <h1 class="font-weight-bold text-info mb-0 text-center mb-5 text-uppercase">
+        Charities we are donating to
+        </h1>
+        <div class="row charities-row">
+        <div class="col-6 col-md-3">
+        <img src="./assets/images/bcrf.svg">
+        </div>
+        <div class="col-6 col-md-3">
+        <img src="./assets/images/komen.png">
+        </div>
+        <div class="col-6 col-md-3 mt-5 mt-md-0">
+        <img src="./assets/images/nationalbreastcancer.svg">
+        </div>
+        <div class="col-6 col-md-3 mt-5 mt-md-0">
+          <img src="./assets/images/florida.png">
+        </div>
+        </div>
+        </div>
+        
+        </div>
+        </div>
+    </div>
+    </div>  
+<footer class="footer py-5">
 <div class="container">
 <div class="row row-grid align-items-center">
 <div class="col-lg-6">
@@ -323,7 +308,29 @@ How to Buy
 </div>
 </div>
 </footer>
+<script>
+  function handleTickInit(tick) {
 
+      // simulate value updates for demo purposes
+      Tick.helper.interval(function(){
+          tick.value += 0;
+      }, 3000);
+
+      // request data from a php file every five seconds
+      /*
+      Tick.data.poll(
+          'data.php',
+          function(response) {
+              // assuming the response is a plain number
+              // we turn it into an int and feed it directly to tick
+              tick.value = parseInt(response, 10);
+          },
+          5000
+      );
+      */
+
+  }
+</script>
 <script>
         let accepted = Cookies.get("accept_cookie");
 
