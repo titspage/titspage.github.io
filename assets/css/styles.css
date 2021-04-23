@@ -116,4 +116,6 @@
     padding: 1.5rem;
     text-align: center;
 }
-
+.navbar-nav {
+    margin-bottom: 20px;
+}
