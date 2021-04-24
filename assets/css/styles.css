@@ -14,3 +14,9 @@
     border-radius: .25rem;
     background-color: transparent;
 }
+img {
+    width: 100%;
+}
+.navbar-horizontal .navbar-brand img {
+    width: 30px;
+}
