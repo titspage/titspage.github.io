@@ -29,12 +29,12 @@ body {
 }
 
 .orbitron {
-    font-family: oribtron
+    font-family: oribtron, sans-serif;
 }
 
 .header h1 {
     font-size: 40px;
-    font-family: oribtron;
+    font-family: oribtron, sans-serif;
     font-display: swap;
     color: #fff
 }
@@ -43,7 +43,7 @@ body {
     color: #fff;
     font-size: 26px;
     font-weight: 100;
-    font-family: oribtron
+    font-family: oribtron, sans-serif;
 }
 
 #particles-js {
@@ -85,7 +85,23 @@ body {
 a.text-info:hover {
     color: #ffedf4!important
 }
-
+.mobile-buy-now {
+    width: fit-content;
+    position: sticky;
+    top: 30px;
+    color: #fff;
+    z-index: 9999;
+    background: linear-gradient(87deg,#d7134c 0,#ff6e94 100%)!important;
+    border-radius: 50rem;
+    /* padding: 10px; */
+    font-size: .875rem;
+    /* position: relative; */
+    transition: all .15s ease;
+    letter-spacing: .025em;
+    text-transform: none;
+    will-change: transform;
+    padding: 0 3rem!important;
+}
 .badge-info {
     background-color: #e64880!important;
     color: #fff;
