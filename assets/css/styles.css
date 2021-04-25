@@ -24,7 +24,8 @@
 
 body {
     font-family: opensans-light;
-    background-image: linear-gradient(#f78fb3,#f4b0c8)!important
+    background-image: linear-gradient(#f78fb3,#f4b0c8)!important;
+    margin-bottom: 50px;
 }
 
 .orbitron {
@@ -840,6 +841,9 @@ video {
 @media only screen and (min-width:650px){
     .particle-container {
         background-image:url(https://d308fakbqebk7c.cloudfront.net/tits/images/CoinImage_1500x.png);
+    }
+    body {
+        margin-bottom: 0;
     }
     .spaceman:before {
         background:url(https://d308fakbqebk7c.cloudfront.net/tits/images/butterfly-background_700px.png) left center no-repeat;
