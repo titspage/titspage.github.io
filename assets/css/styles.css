@@ -85,12 +85,14 @@ a.text-info:hover {
     color: #ffedf4!important
 }
 .mobile-buy-now {
-    width: fit-content;
-    position: sticky;
-    top: 30px;
+    width: 106px;
+    position: fixed;
+    top: 6px;
+    left: 8px;
     color: #fff;
-    z-index: 9999;
-    background: linear-gradient(87deg,#1DA781 0,#89E8CE 100%)!important;
+    z-index: 9999999;
+    background-color: #d7134c;
+    background: linear-gradient( 87deg,#d7134c 0,#ff5582 100%)!important;
     border-radius: 50rem;
     /* padding: 10px; */
     font-size: .875rem;
@@ -99,7 +101,31 @@ a.text-info:hover {
     letter-spacing: .025em;
     text-transform: none;
     will-change: transform;
-    padding: 3px 14px!important;
+    padding: 5px 14px!important;
+    font-family: 'Archivo', Helvetica, Arial, sans-serif;
+}
+.mobile-buy-now:hover, .mobile-buy-now:active, .mobile-buy-now:focus {
+    color: #fff !important;
+}
+.mobile-buy-bar {
+    background: linear-gradient( 87deg,#0D9780 0,#4FB4A3 100%)!important;
+    height: 64px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+    padding: 8px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Archivo', Helvetica, Arial, sans-serif;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.mobile-buy-bar:hover, .mobile-buy-bar:active, .mobile-buy-bar:focus {
+    color: #fff !important;
 }
 .badge-info {
     background-color: #e64880!important;
@@ -306,7 +332,7 @@ footer {
 }
 
 .hero-title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
     color: #620f47;
@@ -830,4 +856,11 @@ video {
     .header-bg {
         background-image: url(https://d308fakbqebk7c.cloudfront.net/tits/images/58931.jpg);
     }
+    .mobile-buy-bar {
+        display: none;
+    }
+    .hero-title {
+        font-size: 32px;
+    }
 }
+
