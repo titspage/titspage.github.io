@@ -200,7 +200,7 @@ footer {
 
 @media (max-width: 991.98px) {
     .spaceman-right:before,.spaceman:before {
-        opacity:.3
+        opacity:.1
     }
 
     .buy-link {
