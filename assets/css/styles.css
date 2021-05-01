@@ -204,7 +204,8 @@ footer {
     }
 
     .buy-link {
-        width: 100%
+        width: 100%;
+        margin-top: 12px;
     }
 
     .navbar-horizontal .navbar-collapse.show {
@@ -842,6 +843,9 @@ video {
 }
 
 @media only screen and (min-width:650px){
+    body {
+        margin-bottom: 64px;
+    }
     .particle-container {
         background-image:url(https://d308fakbqebk7c.cloudfront.net/tits/images/CoinImage_1500x.png);
     }
