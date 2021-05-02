@@ -198,6 +198,14 @@ footer {
     height: 100%;
     background: url(https://d308fakbqebk7c.cloudfront.net/tits/images/butterfly-background_300px.png) right center no-repeat}
 
+.lg-buy-now-btn {
+    font-size: 22px !important;
+}
+
+.lg-buy-now-btn {
+    background: linear-gradient(87deg,#d7134c 0,#ff4576 100%)!important;
+    color: #fff;
+}
 @media (max-width: 991.98px) {
     .spaceman-right:before,.spaceman:before {
         opacity:.1
@@ -337,7 +345,8 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     color: #620f47;
-    margin-top: 40px
+    margin-top: 20px;
+    margin-bottom: 10px
 }
 
 .hero-subtitle {
@@ -347,14 +356,14 @@ footer {
 }
 
 .hero-title-2 {
-    color: #ea1f30;
-    font-size: 86px;
+    color: #e84783;
+    font-size: 94px;
     text-transform: uppercase;
     font-weight: 900
 }
 
 .f-cancer {
-    background-color: #ea1f30;
+    background-color: #E84783;
     padding: 4px 10px;
     color: #fff;
     width: fit-content;
@@ -869,6 +878,9 @@ video {
     }
     .hero-title {
         font-size: 32px;
+    }
+    .lg-buy-now-btn {
+        font-size: 26px !important;
     }
 }
 
