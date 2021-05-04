@@ -850,7 +850,17 @@ video {
         transform: translateX(-50%)
     }
 }
+.portrait-video {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+.video-container-full {
+    width: 100%;
+    background-color: #ffe6ed;
+    padding: 15px 0;
 
+}
 @media only screen and (min-width:650px){
     body {
         margin-bottom: 64px;
@@ -881,6 +891,11 @@ video {
     }
     .lg-buy-now-btn {
         font-size: 26px !important;
+    }
+    .portrait-video { 
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
     }
 }
 
