@@ -1134,3 +1134,5 @@ img {
     }
 }
 #wrapper{width:100%;height:calc(100% - 439px) !important;}
+
+#wrapper{min-height: 500px !important;}
