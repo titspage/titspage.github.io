@@ -1136,3 +1136,9 @@ img {
 #wrapper{width:100%;height:calc(100% - 439px) !important;}
 
 #wrapper{min-height: 500px !important;}
+.white-text {
+    color: #fff !important;
+}
+.white-text:hover, .white-text:active, .white-text:visited {
+    color: #fff !important;
+}
